@@ -1,0 +1,25 @@
+.primary-section > * {
+  border: 1px solid red;
+}
+
+.primary-section div > * {
+  border: 1px solid red;
+  height: 300px;
+}
+
+.feat-stories {
+  height: 500px;
+}
+
+body {
+  background-color: #eee;;
+}
+
+header {
+  background-color: #f72210;
+}
+
+.container-fluid {
+  max-width: 1310px;
+  background-color: white;
+}

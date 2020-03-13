@@ -10,7 +10,7 @@
   border: 1px solid red;
 }
 
-/*======== GENERAL ========*/
+/* ======== GENERAL ======== */
 
 body {
   background-color: #eee;
@@ -29,13 +29,13 @@ section {
   background-color: #fff;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   .container-fluid {
     padding: 0 1.875rem;
   }
 }
 
-/*-------- CARDS --------*/
+/* -------- CARDS -------- */
 
 .card-img-category {
   position: absolute;
@@ -78,7 +78,7 @@ section {
   text-decoration-color: #f72210;
 }
 
-/*-------- HEADINGS --------*/
+/* -------- HEADINGS -------- */
 
 .section-heading {
   font-family: 'Roboto Condensed', sans-serif;
@@ -93,19 +93,19 @@ section {
   }
 }
 
-/*======== HEADER ========*/
+/* ======== HEADER ======== */
 
 header {
   background-color: #f72210;
 }
 
-/*======== FEATURED STORIES ========*/
+/* ======== FEATURED STORIES ======== */
 
 .feat-stories-article {
   padding-bottom: 1.25rem;
 }
 
-/*======== SPECIFIC SECTIONS SELECTORS ========*/
+/* ======== SPECIFIC SECTIONS SELECTORS ======== */
 
 .top-story-article .card-title {
   font-size: 1.375rem;

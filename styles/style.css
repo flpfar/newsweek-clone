@@ -16,9 +16,23 @@ body {
   background-color: #eee;
 }
 
+main {
+  padding-top: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
 .container-fluid {
   max-width: 1310px;
   background-color: #fff;
+}
+
+@media screen and (min-width: 992px){
+  .container-fluid {
+    padding: 0 1.875rem;
+  }
 }
 
 /*-------- CARDS --------*/

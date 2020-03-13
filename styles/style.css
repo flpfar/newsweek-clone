@@ -89,6 +89,14 @@ section {
   text-decoration-color: #f72210;
 }
 
+.card-horizontal-title {
+  font-size: 1.063rem;
+}
+
+.card-horizontal-body {
+  padding-top: 0;
+}
+
 /* -------- Headings -------- */
 
 .section-heading {
@@ -181,13 +189,9 @@ header {
 
 /* -------- More Stories -------- */
 
-.more-stories-article .card-body {
-  padding-top: 0;
-}
 
-.more-stories-article .card-title {
-  font-size: 1.063rem;
-}
+
+
 
 /* -------- Featured Stories -------- */
 

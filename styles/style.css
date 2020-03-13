@@ -1,8 +1,12 @@
+/* TEMP */
+
 .primary-section > * {
   border: 1px solid red;
 }
 
-.primary-section div > * {
+.primary-section div > *,
+.secondary-section > *,
+.secondary-section div > * {
   border: 1px solid red;
   height: 300px;
 }
@@ -11,15 +15,20 @@
   height: 500px;
 }
 
+/* GENERAL */
+
 body {
   background-color: #eee;;
-}
-
-header {
-  background-color: #f72210;
 }
 
 .container-fluid {
   max-width: 1310px;
   background-color: white;
 }
+
+/* HEADER */
+
+header {
+  background-color: #f72210;
+}
+

@@ -17,7 +17,7 @@
   border: 1px solid yellow;
 }
 
-/* GENERAL */
+/*======== GENERAL ========*/
 
 body {
   background-color: #eee;
@@ -28,7 +28,7 @@ body {
   background-color: #fff;
 }
 
-/* GENERAL CARDS */
+/*-------- CARDS --------*/
 
 .card-img-category {
   position: absolute;
@@ -71,25 +71,33 @@ body {
   text-decoration-color: #f72210;
 }
 
+/*-------- HEADINGS --------*/
+.section-heading {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.4);
+}
+
 @media screen and (min-width: 768px) {
   .card-text {
     font-size: 0.938rem;
   }
 }
 
-/* HEADER */
+/*======== HEADER ========*/
 
 header {
   background-color: #f72210;
 }
 
-/* FEATURED STORIES */
+/*======== FEATURED STORIES ========*/
 
 .feat-stories-article {
   padding-bottom: 1.25rem;
 }
 
-/* SPECIFIC SECTIONS SELECTOR */
+/*======== SPECIFIC SECTIONS SELECTORS ========*/
 
 .feat-stories-article .card-title {
   font-size: 1.25rem;

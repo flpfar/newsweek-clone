@@ -48,6 +48,19 @@ section {
   margin-right: 0.938rem;
 }
 
+.card-img-author {
+  margin-right: 0.938rem;
+}
+
+.card-text-author {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #555;
+  margin-top: -0.25rem;
+  margin-bottom: 0;
+}
+
 .card-img-category {
   position: absolute;
   left: 0;
@@ -89,8 +102,23 @@ section {
   text-decoration-color: #f72210;
 }
 
+.card-title-link-secondary {
+  color: #000;
+}
+
+.card-title-link-secondary:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.card-horizontal {
+  padding: 0.875rem 0;
+  border-top: 1px solid #ddd;
+}
+
 .card-horizontal-title {
   font-size: 1.063rem;
+  line-height: 1.2;
 }
 
 .card-horizontal-body {
@@ -140,13 +168,6 @@ header {
   text-decoration: none;
 }
 
-/* ======== MORE STORIES ======== */
-
-.more-stories-article {
-  padding: 0.875rem 0;
-  border-top: 1px solid #ddd;
-}
-
 /* ======== FEATURED STORIES ======== */
 
 .feat-stories-article {
@@ -188,9 +209,6 @@ header {
 }
 
 /* -------- More Stories -------- */
-
-
-
 
 
 /* -------- Featured Stories -------- */

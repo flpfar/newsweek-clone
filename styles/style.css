@@ -4,15 +4,18 @@
   border: 1px solid red;
 }
 
-.primary-section div > *,
+.primary-section .row > *,
 .secondary-section > *,
 .secondary-section div > * {
   border: 1px solid red;
-  height: 300px;
 }
 
 .feat-stories {
-  height: 500px;
+  background-color: aqua;
+}
+
+.feat-stories > * {
+  background-color: lightblue;
 }
 
 /* GENERAL */
@@ -24,6 +27,14 @@ body {
 .container-fluid {
   max-width: 1310px;
   background-color: white;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title-link-primary {
+  color: #000;
 }
 
 /* HEADER */

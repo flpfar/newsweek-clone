@@ -157,6 +157,15 @@ header {
   background-color: #f72210;
 }
 
+/* ======== PRIMARY SECTION ======== */
+
+.primary-section-left-col,
+.primary-section-right-col,
+.primary-section-center-col {
+  position: sticky;
+  bottom: 1rem;
+}
+
 /* ======== CULTURE AND TRAVEL ======== */
 
 .card-img-culture {

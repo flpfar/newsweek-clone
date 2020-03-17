@@ -143,6 +143,11 @@ section {
   margin-bottom: 0;
 }
 
+.secondary-section-heading {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
 .heading-logo {
   background: url("https://g.newsweek.com/www/images/logo-n1.svg") center / contain no-repeat #f72210;
   width: 29px;

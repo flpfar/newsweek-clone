@@ -394,3 +394,13 @@ header {
     font-size: 1.25rem;
   }
 }
+
+@media screen and (min-width: 1310px) {
+  .magazine-article .card-img-top {
+    height: 19vw;
+  }
+
+  .magazine-aftermath .card-img-top {
+    height: 21vw;
+  }
+}

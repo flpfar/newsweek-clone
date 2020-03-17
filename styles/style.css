@@ -338,6 +338,10 @@ header {
   margin-top: 0.625rem;
 }
 
+.editors-pick-article {
+  margin-bottom: 1.25rem;
+}
+
 /* ======== SPECIFIC SECTIONS SELECTORS ======== */
 
 /* -------- Top Story -------- */
@@ -365,7 +369,8 @@ header {
 
 /* -------- Featured Stories -------- */
 
-.feat-stories-article .card-title {
+.feat-stories-article .card-title,
+.editors-pick-article .card-title {
   font-size: 1.25rem;
 }
 
@@ -376,7 +381,8 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .feat-stories-article .card-title {
+  .feat-stories-article .card-title,
+  .editors-pick-article .card-title {
     font-size: 1.5rem;
   }
 

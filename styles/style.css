@@ -174,11 +174,14 @@ header {
 
 /* ======== PRIMARY SECTION ======== */
 
-.primary-section-left-col,
-.primary-section-right-col,
-.primary-section-center-col {
-  position: sticky;
-  bottom: 1rem;
+@media screen and (min-width: 992px) {
+  .primary-section-left-col,
+  .primary-section-right-col,
+  .primary-section-center-col {
+    position: sticky;
+    bottom: 1rem;
+    align-self: flex-end;
+  }
 }
 
 /* ======== CULTURE AND TRAVEL ======== */

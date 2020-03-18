@@ -30,6 +30,11 @@ section {
   background-color: #fff;
 }
 
+.hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 @media screen and (min-width: 992px) {
   .container-fluid {
     padding: 0 1.875rem;
@@ -402,6 +407,11 @@ header {
 
 .slideshows-article .card-title {
   font-size: 1.125rem;
+}
+
+.subscribe .section-heading,
+.newsletter .section-heading {
+  color: #f72210;
 }
 
 @media screen and (min-width: 768px) {

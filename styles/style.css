@@ -157,6 +157,12 @@ section {
   margin-right: 10px;
 }
 
+.category-heading {
+  font-size: 1.375rem;
+  color: #f72210;
+  font-weight: 700;
+}
+
 /* -------- Buttons -------- */
 
 .sign-btn {

@@ -338,8 +338,22 @@ header {
   margin-top: 0.625rem;
 }
 
-.editors-pick-article {
+/* ======== EDITORS PICK AND SLIDESHOWS ======== */
+
+.editors-pick-article,
+.slideshows-article {
   margin-bottom: 1.25rem;
+}
+
+.slideshows-counter {
+  width: 70px;
+  height: 52px;
+  line-height: 3.9rem;
+  padding-left: 1.375rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
 }
 
 /* ======== SPECIFIC SECTIONS SELECTORS ======== */
@@ -380,6 +394,10 @@ header {
   font-size: 1rem;
 }
 
+.slideshows-article .card-title {
+  font-size: 1.125rem;
+}
+
 @media screen and (min-width: 768px) {
   .feat-stories-article .card-title,
   .editors-pick-article .card-title {
@@ -398,6 +416,10 @@ header {
 
   .magazine-article .card-title {
     font-size: 1.25rem;
+  }
+
+  .slideshows-article .card-title {
+    font-size: 1.375rem;
   }
 }
 

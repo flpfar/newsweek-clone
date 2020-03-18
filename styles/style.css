@@ -399,6 +399,42 @@ header {
   object-fit: cover;
 }
 
+/* ======== FOOTER ======== */
+
+.footer {
+  padding: 1.8rem 0;
+  color: #666;
+}
+
+.newsweek-logo-footer {
+  width: 236px;
+  height: 36px;
+  fill: #f72210;
+  margin-bottom: 12px;
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.footer-icons {
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.footer-icon {
+  font-size: 1.625rem;
+  color: #666;
+  margin-left: 0.625rem;
+}
+
+.footer-icon:first-child {
+  margin-left: 0;
+}
+
 @media screen and (min-width: 768px) {
   .subscribe-newsletter-heading {
     font-size: 1.5rem;

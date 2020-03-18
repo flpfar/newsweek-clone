@@ -290,11 +290,15 @@ header {
 }
 
 .signup-btn {
-  background-color: #666;
   color: #fff;
   padding: 0.625rem;
   display: inline-block;
   line-height: 1;
+}
+
+.signup-btn:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .signup-preferences {
@@ -337,7 +341,7 @@ header {
   margin-top: 0.625rem;
 }
 
-/* ======== EDITORS PICK AND SLIDESHOWS ======== */
+/* ======== EDITORS PICK, SLIDESHOWS AND CATEGORIES ARTICLES ======== */
 
 .editors-pick-article,
 .slideshows-article,
@@ -354,6 +358,43 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 0 0/contain no-repeat;
+}
+
+/* ======== SUBSCRIBE ======== */
+
+.subscribe-container {
+  background-color: #eee;
+}
+
+.overlay-images-box {
+  padding-bottom: 13px;
+  padding-right: 85px;
+  margin-bottom: 1rem;
+}
+
+.overlay-image-front {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.subscribe-calling-heading {
+  margin-bottom: 1rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.subscribe-paragraph {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.938rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-calling-heading {
+    font-size: 1.5rem;
+  }
 }
 
 /* ======== SPECIFIC SECTIONS SELECTORS ======== */
@@ -386,6 +427,14 @@ header {
 .feat-stories-article .card-title,
 .editors-pick-article .card-title {
   font-size: 1.25rem;
+}
+
+.signup .signup-btn {
+  background-color: #666;
+}
+
+.subscribe .signup-btn {
+  background-color: #f72210;
 }
 
 /* -------- In The Magazine -------- */

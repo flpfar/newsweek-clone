@@ -1,6 +1,6 @@
 # Clone - "Newsweek" Website
 
-> This is a clone of ["Newsweek" Website (TNW)](https://www.newsweek.com/), created to practice responsive layouts with bootstrap and media queries using a mobile first approach.
+> This is a clone of ["Newsweek" Website](https://www.newsweek.com/), created to practice responsive layouts with bootstrap and media queries using a mobile first approach.
 
 ![screenshot](images/screenshot.png)
 

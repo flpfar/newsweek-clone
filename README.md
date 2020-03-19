@@ -8,7 +8,7 @@
 
 - Responsive layout: support to different screen sizes
 - Positioning using bootstrap, flex and grid
-- Singles elements represented as cards
+- Single elements represented as cards
 - Images alignment
 - Google fonts imports
 - Icons from fontawesome.com
